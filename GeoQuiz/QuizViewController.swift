@@ -39,7 +39,7 @@ class QuizViewController: UIViewController {
         if sender.tag == correctButtonTag{
             displayAlert("Correct", messageText: "Right on!")
         }else{
-            displayAlert("Incorrect", messageText: "Nope. Try again")
+            displayAlert("Incorrect", messageText: "Nope. Try again!")
         }
 
         // TODO: Add code to display a message to the user telling them whether or not they guessed correctly.
